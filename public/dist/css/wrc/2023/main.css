@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Michroma', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	--tw-bg-opacity: 1;
+	background-color:  rgb(255 165 89 / var(--tw-bg-opacity));
+}
+
+
+.text-white {
+	color: aqua;
+}

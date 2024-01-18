@@ -1,0 +1,252 @@
+/* Tampilan Desktop */
+@media only screen and (min-width: 947px) {
+	header {
+		background-color: #ffffff;
+		z-index: 3;
+		position: fixed;
+		width: 100%;
+	}
+
+	header ul.navMenuMobile li {
+		display: none;
+	}
+
+	header ul.navMenuDesktop {
+		display: flex;
+		list-style: none;
+		background-color: #ffffff;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 100px;
+		border-bottom: 1.5px solid #DDDDDD;
+	}
+
+	header ul.navMenuDesktop li a {
+		text-decoration: none;
+		color: #333333;
+	}
+
+	header ul.navMenuDesktop li a::after {
+		content: '';
+		border-bottom: 1.8px solid #F6D75B;
+		display: block;
+		width: 0;
+		padding-bottom: 8px;
+		margin-bottom: -9.8px;
+		transition: 0.3s;
+	}
+
+	header ul.navMenuDesktop li a:hover::after {
+		width: 50%;
+	}
+
+	header .menuToggle {
+		display: none;
+	}
+
+	main {
+		position: relative;
+		top: 280px;
+	}
+
+	main img {
+		text-align: center;
+		display: block;
+		margin: auto;
+		width: 500px;
+		height: 256px;
+	}
+
+	footer {
+		position: relative;
+		top: 510px;
+	}
+
+	footer .footer {
+		display: flex;
+		margin: 0 100px;
+		border-top: 1.5px solid #DDDDDD;
+		padding: 30px 0;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	footer .footer .copyright {
+		display: flex;
+		align-items: center;
+	}
+
+	footer .footer .copyright p {
+		font-family: 'GothicA1-Medium';
+		color: #939393;
+	}
+
+	footer .footer .toggle {
+		margin-left: 30px;
+	}
+
+	footer .footer .listFooter {
+		display: flex;
+	}
+
+	footer .footer .listFooter li {
+		list-style: none;
+	}
+
+	footer .footer .listFooter li a {
+		text-decoration: none;
+		color: #333333;
+		font-weight: bold;
+	}
+
+	footer .footer .listFooter li:nth-child(2) {
+		margin-left: 60px;
+	}
+
+	footer .footer .listFooter li:nth-child(3) {
+		margin-left: 60px;
+	}
+
+	footer .footer .listFooter li:nth-child(4) {
+		margin-left: 60px;
+	}
+}
+/* Akhir Tampilan Desktop */
+
+/* Tampilan Mobile */
+@media(max-width: 500px) {
+
+	header {
+		border-bottom: 1.5px solid #DDDDDD;
+		background-color: #ffffff;
+		position: fixed;
+		z-index: 9;
+		width: 100%;
+	}
+
+	header ul.navMenuDesktop .logo {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		z-index: 2;
+	}
+
+	header ul.navMenuDesktop .logo a img {
+		width: 70px;
+		height: 70px;
+		align-items: center;
+	}
+
+	header ul.navMenuDesktop li {
+		display: none;
+	}
+
+	header ul.navMenuMobile {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		right: 0;
+		list-style: none;
+		background-color: #ffffff;
+		top: 0;
+		height: 100vh;
+		width: 70%;
+		align-items: flex-end;
+		z-index: -1;
+		transform: translateX(100%);
+		transition: all 1s;
+	}
+
+	header ul.navMenuMobile.slide { 
+		z-index: -1;
+		transform: translateX(0);
+	}
+
+	header ul.navMenuMobile li:nth-child(1) {
+		margin-top: 130px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li:nth-child(2) {
+		margin-top: 60px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li:nth-child(3) {
+		margin-top: 60px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li:nth-child(4) {
+		margin-top: 60px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li:nth-child(5) {
+		margin-top: 60px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li:nth-child(6) {
+		margin-top: 60px;
+		margin-right:  25px;
+	}
+
+	header ul.navMenuMobile li a {
+		font-size: 15px;
+		text-decoration: none;
+		color: #333333;
+	}
+
+	.menuToggle {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		margin: 0 25px 0 450px;
+		top: 25px;
+		z-index: 3;
+		height: 20px;
+		justify-content: space-between;
+	}
+
+	.menuToggle input {
+		position: absolute;
+		width: 38px;
+		height: 28px;
+		left: -6px;
+		top: -3px;
+		opacity: 0;
+		cursor: pointer;
+		z-index: 4;
+	}
+
+	.menuToggle span {
+		display: block;
+		width: 24px;
+		height: 2px;
+		background-color: #333333;
+		transition: all 0.5s;
+	}
+
+	.menuToggle span:nthchild(2) {
+		transform-origin: 0 0;
+	}
+
+	.menuToggle span:nthchild(4) {
+		transform-origin: 0 100%;
+	}
+
+	.menuToggle input:checked ~ span:nth-child(2) {
+		transform: rotate(45deg) translate(7px, 6px);
+	}
+
+	.menuToggle input:checked ~ span:nth-child(4) {
+		transform: rotate(-45deg) translate(7px, -6px);
+	}	
+
+	.menuToggle input:checked ~ span:nth-child(3) {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+/* Akhir Tampilan Mobile */

@@ -1,0 +1,266 @@
+/* Tampilan Desktop */
+
+
+header {
+	position: relative;
+}
+
+main {
+	top: 180px;
+	margin: 0 50px;
+}
+
+main .about {
+	margin: 2em 100px;
+}
+
+main .about .heading {
+	position: relative;
+}
+
+
+main .about .heading h1.title {
+	font-family: 'GothicA1-Bold';
+	font-size: 40px;
+	font-weight: bolder;
+	color: #084A7A;
+	-webkit-text-stroke: 2.2px #084A7A;
+}
+
+main .about .heading .line {
+	position: absolute;
+	top: 24px;
+	left: 23%;
+	z-index: -1;
+	height: 22px;
+	width: 320px;
+	background-color: #F6D75B;
+}
+
+main .about .content {
+	display: flex;
+	margin-top: 35px;
+	line-height: 30px;
+	color: #333333;
+}
+
+main .about .videoPlayer video {
+	width: 421px;
+}
+
+main .ourDivisions {
+	margin-top: 40px;
+}
+
+main .ourDivisions .heading {
+	position: relative;
+}
+
+main .ourDivisions .heading h1.title {
+	font-family: 'GothicA1-Bold';
+	font-size: 40px;
+	font-weight: bolder;
+	color: #084A7A;
+	-webkit-text-stroke: 2.2px #084A7A;
+	text-align: center;
+}
+
+main .ourDivisions .heading .line {
+	position: absolute;
+	bottom: 3px;
+	left: 43%;
+	z-index: -1;
+	height: 22px;
+	width: 240px;
+	background-color: #F6D75B;
+}
+
+main .ourDivisions .card {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+main .ourDivisions .card .division {
+	background-color: #f7f7f7;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	width: 401px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+main .ourDivisions .card .division:hover {
+	background-color: #084A7A;
+}
+
+main .ourDivisions .card .content {
+	padding: 35px 30px;
+}
+
+main .ourDivisions .content h1 {
+	font-family: 'GothicA1-Bold';
+	letter-spacing: 1px;
+	font-size: 23px;
+	color: #084A7A;
+	-webkit-text-stroke: 1.5px #084A7A;
+}
+
+main .ourDivisions .card .division:hover h1 {
+	color: #ffffff;
+	-webkit-text-stroke: 1.5px #ffffff;
+}
+
+main .ourDivisions .content p {
+	font-family: 'SpaceGrotesk-Regular';
+	font-size: 15px;
+	line-height: 23px;
+	color: #333333;
+	margin-top: 15px;
+}
+
+main .ourDivisions .card .division:hover p {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+@media only screen and (min-width: 947px) {
+	header {
+		z-index: 3;
+		width: 100%;
+	}	
+}
+
+/* Akhir Tampilan Desktop */
+
+/* Tampilan Mobile */
+@media only screen and (max-width: 576px) {
+
+	html,
+	body {
+		overflow-x: hidden;
+	}
+
+	main .about {
+		margin: 140px 25px 0;
+	}
+
+	.about .heading h1.title {
+		font-family: 'GothicA1-Bold';
+		font-size: 32px;
+		font-weight: bolder;
+		color: #084A7A;
+		-webkit-text-stroke: 2.2px #084A7A;
+		text-align: center;
+	}
+
+	.about .heading span.line {
+		position: relative;
+		top: -25px;
+		z-index: -1;
+		display: inherit;
+		left: 90px;
+		width: 148px;
+		height: 18px;
+		background-color: #F6D75B;
+	}
+
+	.about .content {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-bottom: 40px;
+	}
+
+	.about .content p {
+		margin-top: 35px;
+		text-align: justify;
+		font-size: 15px;
+		line-height: 20px;
+		color: #333333;
+	}
+
+	.about .videoPlayer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about .videoPlayer video {
+		width: 315px;
+	}
+
+	main .ourDivisions {
+		margin-top: 40px;
+	}
+
+	main .ourDivisions .heading {
+		position: relative;
+	}
+
+	main .ourDivisions .heading h1.title {
+		font-family: 'GothicA1-Bold';
+		font-size: 32px;
+		font-weight: bolder;
+		color: #084A7A;
+		-webkit-text-stroke: 2.2px #084A7A;
+		text-align: center;
+	}
+
+	main .ourDivisions .heading .line {
+		position: absolute;
+		bottom: 2px;
+		left: 30%;
+		z-index: -1;
+		height: 18px;
+		width: 200px;
+		background-color: #F6D75B;
+	}
+
+	main .ourDivisions .card {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 35px 25px 0;
+		justify-content: space-between;
+	}
+
+	main .ourDivisions .card .division {
+		background-color: #f7f7f7;
+		border: solid 1px rgba(0, 0, 0, 0.1);
+		border-radius: 15px;
+		margin-bottom: 20px;
+	}
+
+	main .ourDivisions .card .divsion:hover {
+		background-color: #084A7A;
+	}
+
+	main .ourDivisions .card .content {
+		padding: 35px 30px;
+	}
+
+	main .ourDivisions .content h1 {
+		font-family: 'GothicA1-Bold';
+		letter-spacing: 1px;
+		font-size: 23px;
+		color: #084A7A;
+		-webkit-text-stroke: 1.5px #084A7A;
+	}
+
+	main .ourDivisions .card .division:hover h1 {
+		color: #ffffff;
+		-webkit-text-stroke: 1.5px #ffffff;
+	}
+
+	main .ourDivisions .content p {
+		font-family: 'SpaceGrotesk-Regular';
+		font-size: 15px;
+		line-height: 23px;
+		color: #333333;
+		margin-top: 10px;
+	}
+
+	main .ourDivisions .card .division:hover p {
+		color: rgba(255, 255, 255, 0.4);
+	}
+
+}
+
+/* Akhir Tampilan Mobile */

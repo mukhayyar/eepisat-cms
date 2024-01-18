@@ -1,0 +1,1539 @@
+/* Tampilan Desktop */
+
+header {
+	position: relative;
+}
+
+main {
+	margin-top: 2em;
+}
+
+main .title {
+	margin-bottom: 60px;
+	position: relative;
+}
+
+main .title h1 {
+	font-family: 'GothicA1-Bold';
+	font-size: 40px;
+	font-weight: bolder;
+	color: #084A7A;
+	-webkit-text-stroke: 2.2px #084A7A;
+	text-align: center;
+}
+
+main .title .line {
+	position: absolute;
+	bottom: 4px;
+	left: 44%;
+	z-index: -1;
+	height: 22px;
+	width: 264px;
+	background-color: #F6D75B;
+
+}
+
+main .accordion {
+	width: 1149px;
+	margin: 0 auto;
+}
+
+main .accordion .header {
+	font-family: 'GothicA1-Bold';
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 21px 30px 19px 30px;
+	background: #dedede;
+	border: none;
+	outline: none;
+	border-bottom: 1px #c4c4c4 solid;
+	color: #939393;
+	align-items: center;
+	cursor: pointer;
+}
+
+main .accordion .header.active i {
+	transform: rotate(-90deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.ri-arrow-down-s-line {
+	font-size: 24px;
+}
+
+main .accordion .listImg {
+	display: flex;
+	flex-wrap: wrap;
+	height: 0;
+	background: #eeeeee;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+main .accordion .listImg.active {
+	height: 100%;
+	padding-top: 15px;
+}
+
+main .accordion .listImg .team {
+	width: 212px;
+	height: 264px;
+	margin: 0 0 15px 15px;
+	background: #dedede;
+	border: none;
+	outline: none;
+	overflow: hidden;
+}
+
+main .accordion .listImg .team p.grade {
+	font-family: 'GothicA1-Medium';
+	position: relative;
+	letter-spacing: 1px;
+	transform: rotate(90deg);
+	top: 105px;
+	line-height: 22px;
+	font-size: 15.5px;
+	left: 80px;
+	color: #939393;
+	z-index: 1;
+}
+
+main .accordion .listImg .team img {
+	width: 307px;
+	height: 460px;
+	object-fit: cover;
+	filter: grayscale(1);
+	position: relative;
+}
+
+main .accordion .listImg .team:hover img {
+	filter: grayscale(0);
+}
+
+main .accordion .accordionGen2 .team {
+	width: 552px;
+	height: 348px;
+}
+
+main .accordion .accordionGen2 .team {
+	width: 552px;
+	height: 348px;
+}
+
+main .accordion .accordionGen2 .listImg .team img {
+	width: 552px;
+	height: 348px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(1) img {
+	height: 335px;
+	right: 50px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(2) img {
+	height: 444px;
+	right: 50px;
+	bottom: 29px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(3) img {
+	right: 50px;
+	bottom: 65px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(4) img {
+	height: 390px;
+	right: 50px;
+	bottom: 30px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(5) img {
+	height: 410px;
+	right: 45px;
+	bottom: 29px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(6) img {
+	height: 408px;
+	right: 45px;
+	bottom: 50px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(7) img {
+	height: 410px;
+	right: 50px;
+	bottom: 30px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(8) img {
+	height: 421px;
+	right: 50px;
+	bottom: 29px;
+}
+
+main .accordion .accordionGen1 .listImg .team:nth-child(9) img {
+	height: 480px;
+	right: 50px;
+	bottom: 77px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(1) img {
+	width: 216px;
+	left: -2px;
+	bottom: -16px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(2) img {
+	width: 225px;
+	bottom: 3px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(3) img {
+	right: 50px;
+	bottom: 20px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(4) img {
+	right: 50px;
+	bottom: 20px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(5) img {
+	right: 50px;
+	bottom: 35px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(6) img {
+	right: 65px;
+	bottom: 40px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(7) img {
+	bottom: -47px;
+	width: 186px;
+	height: 412px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(8) img {
+	right: 60px;
+	bottom: 65px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(9) img {
+	width: 270px;
+	height: 406px;
+	right: 50px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(10) img {
+	right: 50px;
+	bottom: 35px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(11) img {
+	width: 260px;
+	height: 388px;
+	right: 52px;
+	bottom: -10px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(12) img {
+	right: 55px;
+	bottom: 65px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(13) img {
+	right: 52px;
+	bottom: 60px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(14) img {
+	right: 40px;
+	bottom: 18px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(15) img {
+	right: 55px;
+	bottom: 12px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(16) img {
+	width: 200px;
+	height: 350px;
+	right: 12px;
+	bottom: -40px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(17) img {
+	width: 200px;
+	height: 350px;
+	right: 5px;
+	bottom: 78px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(1) img {
+	width: 200px;
+	bottom: 20px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(2) img {
+	width: 200px;
+	bottom: 25px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(3) img {
+	right: 70px;
+	bottom: 35px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(4) img {
+	right: 50px;
+	bottom: 20px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(5) img {
+	right: 60px;
+	top: 10px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(6) img {
+	right: 45px;
+	bottom: 8px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(7) img {
+	right: 40px;
+	top: 5px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(8) img {
+	right: 45px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(9) img {
+	right: 52px;
+	bottom: 35px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(10) img {
+	right: 45px;
+	bottom: 20px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(11) img {
+	right: 50px;
+	bottom: 15px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(12) img {
+	right: 40px;
+	bottom: 10px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(13) img {
+	right: 65px;
+	bottom: 2px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(14) img {
+	right: 45px;
+	bottom: 25px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(15) img {
+	right: 60px;
+	bottom: 22px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(16) img {
+	right: 28px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(4) p {
+	top: 94px;
+	left: 70px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(12) p {
+	top: 94px;
+	left: 70px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(12) p {
+	top: 94px;
+	left: 70px;
+}
+
+main .accordion .accordionGen4 .listImg .team:nth-child(15) p {
+	top: 94px;
+	left: 70px;
+}
+
+main .accordion .accordionGen3 .listImg .team:nth-child(17) p {
+	top: 94px;
+	left: 70px;
+}
+
+main .accordion .listImg .team .infoAdvisorGen1,
+main .accordion .listImg .team .infoLeaderGen1,
+main .accordion .listImg .team .infoMechanicGen1,
+main .accordion .listImg .team .infoSoftware1Gen1,
+main .accordion .listImg .team .infoSoftware2Gen1,
+main .accordion .listImg .team .infoECD1Gen1,
+main .accordion .listImg .team .infoECD2Gen1,
+main .accordion .listImg .team .infoECD3Gen1,
+main .accordion .listImg .team .infoManagementGen1,
+
+main .accordion .listImg .team .advisor,
+main .accordion .listImg .team .leader,
+main .accordion .listImg .team .pm,
+main .accordion .listImg .team .hardwareElectronic,
+main .accordion .listImg .team .mechanicDescentControl,
+main .accordion .listImg .team .groundControlStation,
+main .accordion .listImg .team .branding,
+main .accordion .listImg .team .management,
+
+main .accordion .listImg .team .infoAdvisor1Gen3,
+main .accordion .listImg .team .infoAdvisor2Gen3,
+main .accordion .listImg .team .infoLeaderGen3,
+main .accordion .listImg .team .infoHardware1Gen3,
+main .accordion .listImg .team .infoHardware2Gen3,
+main .accordion .listImg .team .infoHardware3Gen3,
+main .accordion .listImg .team .infoMechanic1Gen3,
+main .accordion .listImg .team .infoMechanic2Gen3,
+main .accordion .listImg .team .infoMechanic3Gen3,
+main .accordion .listImg .team .infoSoftwareGen3,
+main .accordion .listImg .team .infoPmNontekGen3,
+main .accordion .listImg .team .infoPmTekGen3,
+main .accordion .listImg .team .infoAdministration1Gen3,
+main .accordion .listImg .team .infoAdministration2Gen3,
+main .accordion .listImg .team .infoBranding1Gen3,
+main .accordion .listImg .team .infoBranding2Gen3,
+main .accordion .listImg .team .infoBranding3Gen3,
+
+main .accordion .listImg .team .infoAdvisor1Gen4,
+main .accordion .listImg .team .infoAdvisor2Gen4,
+main .accordion .listImg .team .infoLeaderGen4,
+main .accordion .listImg .team .infoHardware1Gen4,
+main .accordion .listImg .team .infoHardware2Gen4,
+main .accordion .listImg .team .infoSoftware1Gen4,
+main .accordion .listImg .team .infoSoftware2Gen4,
+main .accordion .listImg .team .infoMechanic1Gen4,
+main .accordion .listImg .team .infoMechanic2Gen4,
+main .accordion .listImg .team .infoPmNontekGen4,
+main .accordion .listImg .team .infoPmTekGen4,
+main .accordion .listImg .team .infoBranding1Gen4,
+main .accordion .listImg .team .infoBranding2Gen4,
+main .accordion .listImg .team .infoInternalGen4,
+main .accordion .listImg .team .infoWebMasterGen4,
+main .accordion .listImg .team .infoSponsorshipGen4 {
+	bottom: 0;
+}
+
+main .accordion .listImg .team:hover .infoAdvisorGen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 163px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoLeaderGen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 302px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoMechanicGen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 318px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoSoftware1Gen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 247px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoSoftware2Gen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 289px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoECD1Gen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 285px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+}
+
+main .accordion .listImg .team:hover .infoECD2Gen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 288px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoECD3Gen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 299px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .infoManagementGen1 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 338px;
+	padding: 20px 10px 20px;
+	transition: 0.5s;
+	z-index: 2;
+}
+
+main .accordion .listImg .team:hover .advisor,
+main .accordion .listImg .team:hover .leader,
+main .accordion .listImg .team:hover .pm,
+main .accordion .listImg .team:hover .hardwareElectronic,
+main .accordion .listImg .team:hover .mechanicDescentControl,
+main .accordion .listImg .team:hover .groundControlStation,
+main .accordion .listImg .team:hover .branding,
+main .accordion .listImg .team:hover .management {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 115px;
+	padding: 45px 10px 45px;
+	transition: 0.5s;
+}
+
+main .accordion .listImg .team:hover .infoAdvisor1Gen3,
+main .accordion .listImg .team:hover .infoAdvisor2Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 289px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoPmNontekGen3,
+main .accordion .listImg .team:hover .infoPmTekGen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 380px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoMechanic1Gen3,
+main .accordion .listImg .team:hover .infoAdministration2Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 318px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoSoftwareGen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 267px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoHardware3Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 270px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoBranding2Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 228px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoBranding3Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 250px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoMechanic2Gen3 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 285px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoAdvisor1Gen4,
+main .accordion .listImg .team:hover .infoAdvisor2Gen4 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 288px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoLeaderGen4,
+main .accordion .listImg .team:hover .infoHardware2Gen4,
+main .accordion .listImg .team:hover .infoSoftware1Gen4,
+main .accordion .listImg .team:hover .infoBranding2Gen4,
+main .accordion .listImg .team:hover .infoInternalGen4,
+main .accordion .listImg .team:hover .infoSponsorshipGen4 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 310px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoPmTekGen4 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 358px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoHardware2Gen3,
+main .accordion .listImg .team:hover .infoBranding1Gen3,
+main .accordion .listImg .team:hover .infoAdministration1Gen3,
+main .accordion .listImg .team:hover .infoMechanic3Gen3,
+main .accordion .listImg .team:hover .infoHardware1Gen3,
+main .accordion .listImg .team:hover .infoLeaderGen3,
+main .accordion .listImg .team:hover .infoPmNontekGen4 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 338px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team:hover .infoHardware1Gen4,
+main .accordion .listImg .team:hover .infoMechanic1Gen4,
+main .accordion .listImg .team:hover .infoMechanic2Gen4,
+main .accordion .listImg .team:hover .infoSoftware2Gen4,
+main .accordion .listImg .team:hover .infoBranding1Gen4,
+main .accordion .listImg .team:hover .infoWebMasterGen4 {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	background: rgba(30, 30, 30, 0.8);
+	position: relative;
+	bottom: 330px;
+	padding: 20px 10px 20px;
+	transition: 1s;
+}
+
+main .accordion .listImg .team h3 {
+	font-family: 'GothicA1-Medium';
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+main .accordion .listImg .team p {
+	font-family: 'GothicA1-Medium';
+	font-size: 16px;
+	margin-top: 7px;
+	color: #dedede;
+}
+
+@media only screen and (min-width: 947px) {}
+
+/* Akhir Tampilan Desktop */
+
+/* Tampilan Mobile */
+@media only screen and (max-width: 576px) {
+
+	html,
+	body {
+		overflow-x: hidden;
+	}
+
+	header {
+		position: fixed;
+	}
+
+	main {
+		margin-top: 140px;
+	}
+
+	main .title h1 {
+		font-family: 'GothicA1-Bold';
+		font-size: 32px;
+		font-weight: bolder;
+		color: #084A7A;
+		-webkit-text-stroke: 2.2px #084A7A;
+		text-align: center;
+	}
+
+	main .title span.line {
+		position: relative;
+		z-index: -1;
+		display: inherit;
+		bottom: 20px;
+		left: 103px;
+		width: 219px;
+		height: 18px;
+		background-color: #F6D75B;
+	}
+
+	main .accordion {
+		width: 310px;
+		margin: 10px auto 0;
+	}
+
+	main .accordion .header {
+		font-family: 'GothicA1-Bold';
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding: 15px 25px 15px 25px;
+		background: #dedede;
+		border: none;
+		outline: none;
+		border-bottom: 1px #c4c4c4 solid;
+		color: #939393;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	main .accordion .header p {
+		font-weight: bolder;
+		font-size: 15px;
+	}
+
+	main .accordion .header.active i {
+		transform: rotate(-90deg);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.ri-arrow-down-s-line {
+		font-size: 20px;
+	}
+
+	main .accordion .listImg {
+		display: flex;
+		flex-wrap: wrap;
+		height: 0;
+		background: #eeeeee;
+		overflow: hidden;
+		transition: all 0.3s ease-in-out;
+	}
+
+	main .accordion .listImg.active {
+		height: 100%;
+		padding-top: 5px;
+	}
+
+	main .accordion .listImg img {
+		width: 152px;
+		height: 92px;
+		object-fit: cover;
+		margin-bottom: 5px;
+	}
+
+	main .accordion .listImg .team {
+		width: 147px;
+		height: 189px;
+		margin: 0 0 15px 15px;
+		background: #dedede;
+		border: none;
+		outline: none;
+		overflow: hidden;
+	}
+
+	main .accordion .listImg .team p.grade {
+		font-family: 'GothicA1-Medium';
+		position: relative;
+		letter-spacing: 1px;
+		transform: rotate(90deg);
+		top: 77px;
+		line-height: 15px;
+		font-size: 10px;
+		left: 58px;
+		color: #939393;
+		z-index: 1;
+	}
+
+	main .accordion .accordionGen1 .listImg .team img,
+	main .accordion .accordionGen2 .listImg .team img,
+	main .accordion .accordionGen3 .listImg .team img {
+		width: 218px;
+		height: 326px;
+		object-fit: cover;
+		filter: grayscale(1);
+		position: relative;
+	}
+
+	main .accordion .accordionGen4 .listImg .team img {
+		width: 244px;
+		height: 367px;
+		object-fit: cover;
+		filter: grayscale(1);
+		position: relative;
+	}
+
+	main .accordion .listImg .team:hover img {
+		filter: grayscale(0);
+	}
+
+	main .accordion .listImg .team {
+		width: 147px;
+		height: 189px;
+		margin: 0 0 5px 5px;
+		background: #dedede;
+		border: none;
+		outline: none;
+		overflow: hidden;
+	}
+
+	main .accordion .accordionGen2 .team {
+		width: 299px;
+		height: 189px;
+	}
+
+	main .accordion .accordionGen2 .listImg .team img {
+		width: 299px;
+		height: 189px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(1) img {
+		height: 320px;
+		right: 40px;
+		bottom: 35px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(2) img {
+		height: 315px;
+		right: 40px;
+		bottom: 17px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(3) img {
+		right: 40px;
+		bottom: 35px;
+		height: 287px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(4) img {
+		height: 325px;
+		right: 45px;
+		bottom: 43px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(5) img {
+		height: 289px;
+		right: 40px;
+		bottom: 17px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(6) img {
+		height: 288px;
+		right: 38px;
+		bottom: 30px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(7) img {
+		height: 286px;
+		right: 40px;
+		bottom: 17px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(8) img {
+		height: 295px;
+		right: 43px;
+		bottom: 17px;
+	}
+
+	main .accordion .accordionGen1 .listImg .team:nth-child(9) img {
+		height: 313px;
+		right: 40px;
+		bottom: 45px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(1) img {
+		width: 147px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(2) img {
+		width: 155px;
+		bottom: 20px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(3) img {
+		right: 40px;
+		bottom: 20px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(4) img {
+		right: 50px;
+		bottom: 40px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(5) img {
+		right: 50px;
+		bottom: 35px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(6) img {
+		right: 40px;
+		bottom: 30px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(7) img {
+		bottom: -20px;
+		left: 5px;
+		width: 120px;
+		height: 266px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(8) img {
+		right: 50px;
+		bottom: 65px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(9) img {
+		width: 182px;
+		height: 273px;
+		right: 30px;
+		bottom: 10px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(10) img {
+		right: 40px;
+		bottom: 30px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(11) img {
+		width: 181px;
+		height: 272px;
+		right: 25px;
+		bottom: 5px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(12) img {
+		right: 40px;
+		bottom: 65px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(13) img {
+		right: 42px;
+		bottom: 50px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(14) img {
+		right: 30px;
+		bottom: 18px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(15) img {
+		right: 45px;
+		bottom: 18px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(16) img {
+		width: 160px;
+		height: 285px;
+		right: 12px;
+		bottom: -20px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(17) img {
+		width: 160px;
+		height: 285px;
+		right: 13px;
+		bottom: 65px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(1) img {
+		width: 147px;
+		bottom: 35px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(2) img {
+		width: 155px;
+		bottom: 42px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(3) img {
+		right: 60px;
+		bottom: 65px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(4) img {
+		right: 55px;
+		bottom: 48px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(5) img {
+		right: 60px;
+		top: -25px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(6) img {
+		right: 45px;
+		bottom: 35px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(7) img {
+		right: 50px;
+		top: -25px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(8) img {
+		right: 50px;
+		bottom: 30px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(9) img {
+		right: 55px;
+		bottom: 50px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(10) img {
+		right: 50px;
+		bottom: 48px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(11) img {
+		right: 55px;
+		bottom: 40px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(12) img {
+		right: 45px;
+		bottom: 40px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(13) img {
+		right: 65px;
+		bottom: 35px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(14) img {
+		right: 50px;
+		bottom: 60px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(15) img {
+		right: 60px;
+		bottom: 50px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(16) img {
+		right: 40px;
+		bottom: 18px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(4) p {
+		top: 68px;
+		left: 50px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(12) p {
+		top: 68px;
+		left: 50px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(12) p {
+		top: 68px;
+		left: 50px;
+	}
+
+	main .accordion .accordionGen4 .listImg .team:nth-child(15) p {
+		top: 68px;
+		left: 50px;
+	}
+
+	main .accordion .accordionGen3 .listImg .team:nth-child(17) p {
+		top: 68px;
+		left: 50px;
+	}
+
+	main .accordion .listImg .team .infoAdvisorGen1,
+	main .accordion .listImg .team .infoLeaderGen1,
+	main .accordion .listImg .team .infoMechanicGen1,
+	main .accordion .listImg .team .infoSoftware1Gen1,
+	main .accordion .listImg .team .infoSoftware2Gen1,
+	main .accordion .listImg .team .infoECD1Gen1,
+	main .accordion .listImg .team .infoECD2Gen1,
+	main .accordion .listImg .team .infoECD3Gen1,
+	main .accordion .listImg .team .infoManagementGen1,
+
+	main .accordion .listImg .team .advisor,
+	main .accordion .listImg .team .leader,
+	main .accordion .listImg .team .pm,
+	main .accordion .listImg .team .hardwareElectronic,
+	main .accordion .listImg .team .mechanicDescentControl,
+	main .accordion .listImg .team .groundControlStation,
+	main .accordion .listImg .team .branding,
+	main .accordion .listImg .team .management,
+
+	main .accordion .listImg .team .infoAdvisor1Gen3,
+	main .accordion .listImg .team .infoAdvisor2Gen3,
+	main .accordion .listImg .team .infoLeaderGen3,
+	main .accordion .listImg .team .infoHardware1Gen3,
+	main .accordion .listImg .team .infoHardware2Gen3,
+	main .accordion .listImg .team .infoHardware3Gen3,
+	main .accordion .listImg .team .infoMechanic1Gen3,
+	main .accordion .listImg .team .infoMechanic2Gen3,
+	main .accordion .listImg .team .infoMechanic3Gen3,
+	main .accordion .listImg .team .infoSoftwareGen3,
+	main .accordion .listImg .team .infoPmNontekGen3,
+	main .accordion .listImg .team .infoPmTekGen3,
+	main .accordion .listImg .team .infoAdministration1Gen3,
+	main .accordion .listImg .team .infoAdministration2Gen3,
+	main .accordion .listImg .team .infoBranding1Gen3,
+	main .accordion .listImg .team .infoBranding2Gen3,
+	main .accordion .listImg .team .infoBranding3Gen3,
+
+	main .accordion .listImg .team .infoAdvisor1Gen4,
+	main .accordion .listImg .team .infoAdvisor2Gen4,
+	main .accordion .listImg .team .infoLeaderGen4,
+	main .accordion .listImg .team .infoHardware1Gen4,
+	main .accordion .listImg .team .infoHardware2Gen4,
+	main .accordion .listImg .team .infoSoftware1Gen4,
+	main .accordion .listImg .team .infoSoftware2Gen4,
+	main .accordion .listImg .team .infoMechanic1Gen4,
+	main .accordion .listImg .team .infoMechanic2Gen4,
+	main .accordion .listImg .team .infoPmNontekGen4,
+	main .accordion .listImg .team .infoPmTekGen4,
+	main .accordion .listImg .team .infoBranding1Gen4,
+	main .accordion .listImg .team .infoBranding2Gen4,
+	main .accordion .listImg .team .infoInternalGen4,
+	main .accordion .listImg .team .infoWebMasterGen4,
+	main .accordion .listImg .team .infoSponsorshipGen4 {
+		bottom: 0;
+	}
+
+	main .accordion .listImg .team:hover .infoAdvisorGen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 215px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoLeaderGen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 228px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoMechanicGen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 200px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoSoftware1Gen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 238px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoSoftware2Gen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 220px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoECD1Gen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 231px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+	}
+
+	main .accordion .listImg .team:hover .infoECD2Gen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 247px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoECD3Gen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 257px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .infoManagementGen1 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 244px;
+		padding: 20px 10px 20px;
+		transition: 0.5s;
+		z-index: 2;
+	}
+
+	main .accordion .listImg .team:hover .advisor,
+	main .accordion .listImg .team:hover .leader,
+	main .accordion .listImg .team:hover .pm,
+	main .accordion .listImg .team:hover .hardwareElectronic,
+	main .accordion .listImg .team:hover .mechanicDescentControl,
+	main .accordion .listImg .team:hover .groundControlStation,
+	main .accordion .listImg .team:hover .branding,
+	main .accordion .listImg .team:hover .management {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 115px;
+		padding: 45px 10px 45px;
+		transition: 0.5s;
+	}
+
+	main .accordion .listImg .team:hover .infoAdvisor1Gen3,
+	main .accordion .listImg .team:hover .infoAdvisor2Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 222px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoHardware2Gen3,
+	main .accordion .listImg .team:hover .infoBranding1Gen3,
+	main .accordion .listImg .team:hover .infoMechanic3Gen3,
+	main .accordion .listImg .team:hover .infoHardware1Gen3,
+	main .accordion .listImg .team:hover .infoLeaderGen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 257px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoPmNontekGen3,
+	main .accordion .listImg .team:hover .infoPmTekGen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 286px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoMechanic1Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 239px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoAdministration2Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 272px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoSoftwareGen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 221px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoHardware3Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 179px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoBranding2Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 216px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoBranding3Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 230px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoMechanic2Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 203px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoAdministration1Gen3 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 272px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoAdvisor1Gen4,
+	main .accordion .listImg .team:hover .infoAdvisor2Gen4 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 263px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoLeaderGen4,
+	main .accordion .listImg .team:hover .infoInternalGen4,
+	main .accordion .listImg .team:hover .infoSponsorshipGen4 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 280px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoHardware2Gen4,
+	main .accordion .listImg .team:hover .infoSoftware1Gen4,
+	main .accordion .listImg .team:hover .infoBranding2Gen4 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 295px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoPmTekGen4,
+	main .accordion .listImg .team:hover .infoPmNontekGen4,
+	main .accordion .listImg .team:hover .infoWebMasterGen4 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 312px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team:hover .infoHardware1Gen4,
+	main .accordion .listImg .team:hover .infoMechanic1Gen4,
+	main .accordion .listImg .team:hover .infoMechanic2Gen4,
+	main .accordion .listImg .team:hover .infoSoftware2Gen4,
+	main .accordion .listImg .team:hover .infoBranding1Gen4 {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(30, 30, 30, 0.8);
+		position: relative;
+		bottom: 295px;
+		padding: 20px 10px 20px;
+		transition: 1s;
+	}
+
+	main .accordion .listImg .team h3 {
+		font-family: 'GothicA1-Medium';
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	main .accordion .listImg .team p {
+		font-family: 'GothicA1-Medium';
+		font-size: 12px;
+		margin-top: 2px;
+		color: #dedede;
+	}
+
+}
+
+/* Akhir Tampilan Mobile */
