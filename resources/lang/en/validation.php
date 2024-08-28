@@ -129,6 +129,8 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute must be a valid URL.',
     'uuid' => 'The :attribute must be a valid UUID.',
+    'max_words' => 'The :attribute may not be greater than :max_words words.',
+    'min_words' => 'The :attribute must be at least :min_words words.',
 
     /*
     |--------------------------------------------------------------------------

@@ -62,7 +62,7 @@ main .accordion .header.active i {
 
 main .accordion .listImg {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	height: 0;
 	background: #eeeeee;

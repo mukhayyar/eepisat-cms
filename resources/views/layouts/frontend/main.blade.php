@@ -51,6 +51,7 @@
 </head>
 
 <body>
+    @yield('custom-cursor')
     <header>
         <ul class="navMenuDesktop">
 
